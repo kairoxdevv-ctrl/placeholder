@@ -19,7 +19,7 @@ background:radial-gradient(circle at 20% 30%, #ff00cc55, transparent 40%),
            radial-gradient(circle at 80% 70%, #00f2ff55, transparent 40%),
            linear-gradient(135deg,#0f0c29,#302b63,#24243e);
 animation:moveBg 15s infinite alternate ease-in-out;
-z-index:-2;
+z-index:-1;
 }
 
 @keyframes moveBg{
@@ -35,7 +35,6 @@ border-radius:25px;
 backdrop-filter:blur(20px);
 box-shadow:0 0 60px #ff00cc55;
 max-width:600px;
-z-index:2;
 }
 
 .logo{
@@ -96,19 +95,4 @@ opacity:.7;
 .legal-links a{
 color:#00f2ff;
 text-decoration:none;
-}
-
-.anime{
-position:fixed;
-width:200px;
-z-index:1;
-animation:floatAround 20s linear infinite;
-}
-
-@keyframes floatAround{
-0%{top:10%; left:5%; transform:rotate(0deg);}
-25%{top:20%; left:75%; transform:rotate(5deg);}
-50%{top:70%; left:60%; transform:rotate(-5deg);}
-75%{top:60%; left:10%; transform:rotate(3deg);}
-100%{top:10%; left:5%; transform:rotate(0deg);}
 }
