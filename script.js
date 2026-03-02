@@ -1,4 +1,4 @@
-console.log("KΛIROX ACTIVE");
+console.log("NIKKI");
 
 // particles
 for(let i=0;i<80;i++){
