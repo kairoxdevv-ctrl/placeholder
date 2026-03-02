@@ -2,31 +2,35 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NIKKI</title>
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="particles"></div>
+
+<div class="bg"></div>
+
 <div class="card">
-  <h1 class="glitch">NIKKI</h1>
-  <p>Advanced Discord Moderation & Utility Bot</p>
+  <h1 class="logo">NIKKI</h1>
+  <p class="subtitle">Elite Anime-Themed Discord Moderation Bot</p>
 
-  <a class="btn invite" target="_blank"
-     href="https://discord.com/oauth2/authorize?client_id=1471235192978018345&permissions=8&integration_type=0&scope=bot+applications.commands">
-     INVITE BOT
-  </a>
+  <div class="buttons">
+    <a class="btn primary" target="_blank"
+       href="https://discord.com/oauth2/authorize?client_id=1471235192978018345&permissions=8&integration_type=0&scope=bot+applications.commands">
+       Invite Bot
+    </a>
 
-  <a class="btn support" target="_blank"
-     href="https://discord.gg/RTbKHzU6Nb">
-     SUPPORT SERVER
-  </a>
+    <a class="btn secondary" target="_blank"
+       href="https://discord.gg/RTbKHzU6Nb">
+       Support Server
+    </a>
+  </div>
 
-  <a class="btn invite" href="/terms">TERMS OF SERVICE</a>
-  <a class="btn support" href="/privacy">PRIVACY POLICY</a>
-
-  <span class="domain">kxr.2bd.net</span>
+  <div class="legal-links">
+    <a href="/terms">Terms</a> • <a href="/privacy">Privacy</a>
+  </div>
 </div>
-<script src="script.js"></script>
+
 </body>
 </html>
